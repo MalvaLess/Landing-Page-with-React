@@ -9,3 +9,6 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.collapsing {
+  transition: height 0.5s ease-in-out; /* más lenta y suave */
+}
