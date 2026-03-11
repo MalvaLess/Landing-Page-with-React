@@ -1,15 +1,18 @@
-import React from 'react'
+import React from "react";
 
 const Footer = () => {
   return (
-    <div><footer>
-    <div class="row">
-        <div class="col-lg-12 text-center text-white p-2 bg-dark">
-            <p>Copyright &copy; Your Website Name 2026</p>
-        </div>
-    </div>
-</footer></div>
-  )
-}
+    <footer className="bg-dark text-white text-center py-4 mt-auto">
+      <div className="container">
+        <p>
+          <small>
+            Copyright &copy; Your Website {new Date().getFullYear()}
+          </small>
+        </p>
+        {/* Lo puse así para probar este de fecha. */}
+      </div>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;
